@@ -4,6 +4,8 @@ import { defineConfig } from 'astro/config';
 export default defineConfig({
   compressHTML: false,
   inlineStylesheets: "never",
+  base: "/rive-test-tree/",
+  outDir: "./docs",
   vite: {
     build: {
       rollupOptions: {

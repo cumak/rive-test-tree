@@ -30,7 +30,7 @@ treeAnimation();
 
 function treeAnimation() {
   const riveAnime = new Rive({
-    src: '/public/animation/tree.riv',
+    src: '/rive-test-tree/animation/tree.riv',
     canvas: canvas,
     autoplay: false,
     useOffscreenRenderer: true,
